@@ -2,7 +2,7 @@
   "name": "teo-demo-app",
   "version": "1.0.0",
   "description": "Demo application built with Teo.JS",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -21,5 +21,12 @@
   "bugs": {
     "url": "https://github.com/Antyfive/teo-demo-app/issues"
   },
-  "homepage": "https://github.com/Antyfive/teo-demo-app#readme"
+  "homepage": "https://github.com/Antyfive/teo-demo-app#readme",
+  "dependencies": {
+    "hogan.js": "^3.0.2",
+    "teo-db-adapter-waterline": "^1.0.0",
+    "teo-html-compressor-extension": "^1.0.0",
+    "teo-powered-by-extension": "^1.0.0",
+    "teo.js": "^1.0.0-alpha.18"
+  }
 }
