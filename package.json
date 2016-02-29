@@ -24,9 +24,10 @@
   "homepage": "https://github.com/Antyfive/teo-demo-app#readme",
   "dependencies": {
     "hogan.js": "^3.0.2",
-    "teo-db-adapter-waterline": "^1.0.0",
+    "sails-disk": "^0.10.9",
+    "teo-db-adapter-waterline": "^1.0.1",
     "teo-html-compressor-extension": "^1.0.0",
     "teo-powered-by-extension": "^1.0.0",
-    "teo.js": "^1.0.0-alpha.18"
+    "teo.js": "^1.0.0-alpha.19"
   }
 }

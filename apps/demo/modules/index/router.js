@@ -7,7 +7,7 @@
 "use strict";
 
 module.exports = function(router, dbAdapterInstance) {
-
+    //console.log(dbAdapterInstance.models);    // models object
     router.get("/", function* (req, res, next) {
         yield* this.render("index", {}, {
             partials: {

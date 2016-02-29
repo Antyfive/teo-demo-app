@@ -21,6 +21,24 @@ module.exports = {
         delimiters: "{{ }}",
         engine: "hogan"
     },
-    appDirs: [],    // app's directories to read and collect files inside, on system start
+    db: {
+        enabled: true,
+        adapterConfig: {
+            //adapterName: "teo.db.adapter.waterline",  // example of the local adapter config
+            //adapterPath: "/absolute/path/to/adapter/directory",
+            //adapterPrefix: "teo.db.adapter.",
+            adapterModule: "teo-db-adapter-waterline",
+            waterlineAdapters: {
+                "default": require("sails-disk"),
+                disk: require("sails-disk")
+            },
+            connections: {
+                myLocalDisk: {
+                    adapter: "disk"
+                }
+            }
+        }
+    },
+    //appDirs: ["models", "controllers"],    // app's directories to read and collect files inside, on system start
     appFiles: ["app.js"]    // app's files to read and cache on system start
 };
