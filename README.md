@@ -4,6 +4,7 @@ Demo application built with [Teo.JS](https://github.com/Antyfive/teo.js)
 # Installation
 
 * `git clone git@github.com:Antyfive/teo-demo-app.git`
+* `cd teo-demo-app/`
 * `npm install`
 * `node app.js`
 * Check `http://localhost:3100`
