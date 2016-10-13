@@ -28,6 +28,6 @@
     "teo-db-adapter-waterline": "^1.0.1",
     "teo-html-compressor-extension": "^1.0.0",
     "teo-powered-by-extension": "^1.0.0",
-    "teo.js": "^1.0.0-alpha.19"
+    "teo.js": "^1.0.0-beta.5"
   }
 }
